@@ -31,7 +31,7 @@ with st.expander("See source code"):
 
         m.add_geojson(regions, layer_name='US Regions')
         m.add_points_from_xy(
-            hotspots,
+            cities,
             #x="LONGITUDE",
             #y="LATITUDE",
             x="longitude",
