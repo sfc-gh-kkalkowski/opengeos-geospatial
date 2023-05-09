@@ -24,18 +24,18 @@ with st.expander("See source code"):
     with st.echo():
 
         m = leafmap.Map(center=[40, -100], zoom=4)
-        cities = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv'
-        regions = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_regions.geojson'
-        #hotspots = 'https://raw.githubusercontent.com/desilvarami/opengeos-geospatial/master/pages/modis.csv'
-        #regions = 'https://raw.githubusercontent.com/desilvarami/opengeos-geospatial/master/pages/world.geojson'
+        #cities = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv'
+        #regions = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_regions.geojson'
+        hotspots = 'https://raw.githubusercontent.com/desilvarami/opengeos-geospatial/master/pages/modis.csv'
+        countries = 'https://raw.githubusercontent.com/desilvarami/opengeos-geospatial/master/pages/world.geojson'
 
-        m.add_geojson(regions, layer_name='US Regions')
+        m.add_geojson(countries, layer_name='Countries')
         m.add_points_from_xy(
-            cities,
-            #x="LONGITUDE",
-            #y="LATITUDE",
-            x="longitude",
-            y="latitude",
+            hotspots,
+            x="LONGITUDE",
+            y="LATITUDE",
+            #x="longitude",
+            #y="latitude",
             #color_column='CONFIDENCE',
             #icon_names=['gear', 'map', 'leaf', 'globe'],
             #spin=True,
