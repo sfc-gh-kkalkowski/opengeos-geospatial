@@ -34,10 +34,10 @@ with st.expander("See source code"):
             cities,
             x="LONGITUDE",
             y="LATITUDE",
-            color_column='CONFIDENCE',
-            icon_names=['gear', 'map', 'leaf', 'globe'],
+            #color_column='CONFIDENCE',
+            #icon_names=['gear', 'map', 'leaf', 'globe'],
             spin=True,
-            add_legend=True,
+            #add_legend=True,
         )
 
 m.to_streamlit(height=700)
