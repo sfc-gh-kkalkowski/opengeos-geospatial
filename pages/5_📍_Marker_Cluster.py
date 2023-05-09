@@ -27,7 +27,7 @@ with st.expander("See source code"):
         #cities = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv'
         #regions = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_regions.geojson'
         cities = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv'
-        regions = './world.geojson'
+        regions = '"world.geojson"'
 
         m.add_geojson(regions, layer_name='US Regions')
         m.add_points_from_xy(
