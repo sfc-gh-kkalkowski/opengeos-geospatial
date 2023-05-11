@@ -26,8 +26,8 @@ with st.expander("See source code"):
         m = leafmap.Map(center=[0, 0], zoom=2)
         #cities = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv'
         #regions = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_regions.geojson'
-        hotspots = 'https://raw.githubusercontent.com/desilvarami/opengeos-geospatial/master/pages/modis.csv'
-        countries = 'https://raw.githubusercontent.com/desilvarami/opengeos-geospatial/master/pages/world.geojson'
+        hotspots = './data/modis.csv'
+        countries = './data/world.geojson'
 
         m.add_geojson(countries, layer_name='Countries')
         m.add_points_from_xy(
