@@ -3,7 +3,7 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
-st.title("Heatmap")
+st.title("MODIS Hotspots - Heatmap")
 
 #filepath = "https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv"
 #m = leafmap.Map(center=[40, -100], zoom=4, tiles="stamentoner")
