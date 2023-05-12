@@ -18,7 +18,7 @@ st.sidebar.info(
     """
 )
 
-st.title("Marker Cluster")
+st.title("MODIS Hotspots - Marker Cluster")
 
 m = leafmap.Map(center=[0, 0], zoom=2)
 #cities = 'https://raw.githubusercontent.com/giswqs/leafmap/master/examples/data/us_cities.csv'
