@@ -3,7 +3,7 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
-st.image('./images/UNOSAT_Logo.png')
+st.sidebar.image('./images/UNOSAT_Logo.png', width=100)
 # Customize page title
 st.title("UNOSAT - Streamlit Dashboard")
 
