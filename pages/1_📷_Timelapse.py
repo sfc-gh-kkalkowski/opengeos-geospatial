@@ -17,7 +17,7 @@ warnings.filterwarnings("ignore")
 
 @st.cache_data
 def ee_authenticate(token_name="EARTHENGINE_TOKEN"):
-    geemap.ee_initialize(token_name=token_name)
+    geemap.ee_initialize(token_name=4/1Adeu5BU6WvHowpKbHDCYq8nJqxEfTUYl1ObC-1PP07AO43ucrxC-Vtp-0i4)
 
 goes_rois = {
     "Creek Fire, CA (2020-09-05)": {
