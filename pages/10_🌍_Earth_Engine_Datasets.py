@@ -7,6 +7,8 @@ st.set_page_config(layout="wide")
 def ee_authenticate(token_name="EARTHENGINE_TOKEN"):
     geemap.ee_initialize(token_name=token_name)
 
+def nlcd():
+
     # st.header("National Land Cover Database (NLCD)")
 
     row1_col1, row1_col2 = st.columns([3, 1])
