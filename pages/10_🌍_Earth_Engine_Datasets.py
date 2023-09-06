@@ -5,8 +5,8 @@ import geemap.foliumap as geemap
 st.set_page_config(layout="wide")
 
 def nlcd():
-    geemap.ee_initialize(token_name='4/1Adeu5BU6WvHowpKbHDCYq8nJqxEfTUYl1ObC-1PP07AO43ucrxC-Vtp-0i4')
-    ee.Initialize()
+    ee_authenticate(token_name="EARTHENGINE_TOKEN"):
+    geemap.ee_initialize(token_name=token_name)
 
     # st.header("National Land Cover Database (NLCD)")
 
