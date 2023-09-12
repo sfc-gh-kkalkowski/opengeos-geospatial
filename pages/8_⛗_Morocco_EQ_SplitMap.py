@@ -15,5 +15,5 @@ m.split_map(
    )
 
 m.set_center(-7.965421, 31.2265, 17)
-m.to_streamlit(height=700)
+m.to_streamlit(height=600)
 
