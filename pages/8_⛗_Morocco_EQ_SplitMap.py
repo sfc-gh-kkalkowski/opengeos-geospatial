@@ -14,6 +14,6 @@ m.split_map(
    left_layer = url_pre, right_layer= url_post, left_label='pre-event', right_label='post-event',
    )
 
-m.set_center(-7.96, 31.25, 17)
+m.set_center(-7.965421, 31.2265, 17)
 m.to_streamlit(height=700)
 
