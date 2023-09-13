@@ -3,13 +3,13 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
-st.image('./images/UNOSAT_Logo.png', width=200)
+#st.image('./images/UNOSAT_Logo.png', width=200)
 # Customize page title
-st.title("UNOSAT - Streamlit Dashboard")
+st.title("Streamlit Dashboard")
 
 st.markdown(
     """
-    This Streamlit application presents geospatial data from various sources.
+    This prototype Streamlit application presents geospatial data from various sources.
     """
 )
 
