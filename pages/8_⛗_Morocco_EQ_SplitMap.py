@@ -11,7 +11,7 @@ url_post = 'https://maxar-opendata.s3.us-west-2.amazonaws.com/events/Morocco-Ear
 
 m = leafmap.Map()
 m.split_map(
-   left_layer = url_pre, right_layer= url_post, left_label='pre-event', right_label='post-event',
+   left_layer = url_pre, right_layer= url_post, left_label='pre-event-panchromatic', right_label='post-event-Multispectral ',
    )
 
 m.set_center(-7.965421, 31.2265, 17)
