@@ -9,7 +9,7 @@ st.title("Turkey Earthquake-COG Mosaic")
 m = leafmap.Map()
 
 #pre = leafmap.maxar_tile_url('Kahramanmaras-turkey-earthquake-23', '10300100D797E100', dtype='json')
-pre = https://maxar-opendata.s3.amazonaws.com/events/Kahramanmaras-turkey-earthquake-23/ard/acquisition_collections/10300100D797E100_collection.json
+pre = 'https://maxar-opendata.s3.amazonaws.com/events/Kahramanmaras-turkey-earthquake-23/ard/acquisition_collections/10300100D797E100_collection.json'
 
 post = leafmap.maxar_tile_url('Kahramanmaras-turkey-earthquake-23', '10300500D9F8D200', dtype='json')
 
