@@ -13,7 +13,7 @@ pre = leafmap.maxar_tile_url('Kahramanmaras-turkey-earthquake-23', '10300100D797
 post = leafmap.maxar_tile_url('Kahramanmaras-turkey-earthquake-23', '10300500D9F8D200', dtype='json')
 
 url = 'https://open.gishub.org/maxar-open-data/datasets/Kahramanmaras-turkey-earthquake-23/10300100D797E100.json'
-m.add_stac_layer(url, name="Mosaic")
+m.add_geojson(url, name="Mosaic")
 
 m.split_map(
     left_layer =pre, right_layer=post, left_label='pre-event', right_label='post-event',
