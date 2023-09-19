@@ -3,7 +3,7 @@ import pandas as pd
 import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
-
+st.title("Visualize COG Mosaics of MAXAR Open Data")
 
 url = 'https://raw.githubusercontent.com/opengeos/maxar-open-data/master'
 repo = 'https://github.com/opengeos/maxar-open-data/blob/master/datasets'
