@@ -27,6 +27,6 @@ catalog = st.selectbox('Select a COG mosaic', get_catalogs(dataset))
 dataset
 catalog
 
-mosaic = "https://open.gishub.org/maxar-open-data/datasets"
-mosaic
+url = 'https://open.gishub.org/maxar-open-data/datasets/Kahramanmaras-turkey-earthquake-23/10300100D797E100.json'
+url
 m.to_streamlit(height=700)
