@@ -4,6 +4,7 @@ import leafmap.foliumap as leafmap
 
 st.set_page_config(layout="wide")
 
+
 url = 'https://raw.githubusercontent.com/opengeos/maxar-open-data/master'
 repo = 'https://github.com/opengeos/maxar-open-data/blob/master/datasets'
 
