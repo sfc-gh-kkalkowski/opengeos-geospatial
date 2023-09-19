@@ -26,6 +26,9 @@ catalog = st.selectbox('Select a COG mosaic', get_catalogs(dataset))
 
 dataset
 catalog
-url = 'https://open.gishub.org/maxar-open-data/datasets/Kahramanmaras-turkey-earthquake-23/[catalog].json'
+url = 'https://open.gishub.org/maxar-open-data'
 m.add_stac_layer(url, name="Mosaic")
+
+mosaic = f'{url}/datasets/{dataset.value}/{catalog.value}.json'
+m.add_stac_layer(mosaic, name="Mosaic")
 m.to_streamlit(height=700)
