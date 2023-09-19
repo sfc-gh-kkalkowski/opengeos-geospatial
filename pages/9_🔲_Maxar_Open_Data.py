@@ -28,5 +28,5 @@ dataset
 catalog
 
 url = 'https://open.gishub.org/maxar-open-data/datasets/Kahramanmaras-turkey-earthquake-23/10300100D797E100.json'
-url
+m.add_stac_layer(url, name="Mosaic")
 m.to_streamlit(height=700)
