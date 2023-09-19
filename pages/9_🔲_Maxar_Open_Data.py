@@ -18,3 +18,8 @@ def get_catalogs(name):
     dataset_df = pd.read_csv(dataset, sep='\t')
     catalog_ids = dataset_df['catalog_id'].unique().tolist()
     return catalog_ids
+
+default = 'Kahramanmaras-turkey-earthquake-23'
+datasets = get_datasets()['dataset'].tolist()
+dataset = st.selectbox('Select a dataset', datasets, index=datasets.index(default))
+catalog = st.selectbox('Select a COG mosaic', get_catalogs(dataset))
