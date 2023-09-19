@@ -26,9 +26,7 @@ catalog = st.selectbox('Select a COG mosaic', get_catalogs(dataset))
 
 dataset
 catalog
-url = 'https://open.gishub.org/maxar-open-data'
-#mosaic = f'https://open.gishub.org/maxar-open-data/datasets/{dataset.value}/{catalog.value}.json'
+
 mosaic = f'https://open.gishub.org/maxar-open-data/datasets/{dataset}'
 mosaic
-#m.add_stac_layer(mosaic, name="Mosaic")
 m.to_streamlit(height=700)
