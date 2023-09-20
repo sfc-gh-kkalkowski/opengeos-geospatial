@@ -27,5 +27,8 @@ catalog = st.selectbox('Select a COG mosaic', get_catalogs(dataset))
 
 mosaic = f'https://open.gishub.org/maxar-open-data/datasets/{dataset}/{catalog}.json'
 m.add_stac_layer(mosaic, name="Mosaic")
+#to display the footprints
+footprint = f'https://open.gishub.org/maxar-open-data/datasets/{dataset}/{catalog}.geojson'
+m.add_geojson(footprint, layer_name='Footprints', info_mode="on_click")
 
 m.to_streamlit(height=700)
