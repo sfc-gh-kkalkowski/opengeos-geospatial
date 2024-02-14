@@ -5,7 +5,7 @@ st.set_page_config(layout="wide")
 
 #st.image('./images/UNOSAT_Logo.png', width=200)
 # Customize page title
-st.title("Streamlit App Dashboard")
+st.title("Streamlit App Dashboard after deploy")
 
 st.markdown(
     """
